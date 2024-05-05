@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(158, 126, 126, 0.57), rgba(128, 128, 128, 0.507));
+    color: black;
+    height: 100%;
+
+    box-sizing: border-box;
+
+
+
+
+
+
+
+
+}
+
+.box {
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url(img/filosofia-platon-y-aristoteles-e1658864557240-800x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.4;
+}
+
+.topo {
+    margin: 5%;
+    font-size: 40px;
+    font-family: "Lora", serif;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.corpo {
+    display: flex;
+    align-items: center;
+
+}
+
+.secao {
+    border: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgba(127, 127, 150, 0.428);
+    border-radius: 10px;
+    ;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagem {
+    width: 55rem;
+    height: 40rem;
+
+
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+    border-radius: 10%;
+    padding: 100px;
+
+}
+
+.Niet {
+    padding 10px;
+    background-color: rgba(0, 0, 0, 0.581);
+}
