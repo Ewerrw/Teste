@@ -5,33 +5,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+
 }
 
 body {
-    background-image: linear-gradient(rgba(158, 126, 126, 0.57), rgba(128, 128, 128, 0.507));
+
+
+
     color: black;
     height: 100%;
 
     box-sizing: border-box;
 
-
-
-
-
-
-
-
 }
 
-.box {
-    height: 100%;
-    box-sizing: border-box;
-    background-image: url(img/filosofia-platon-y-aristoteles-e1658864557240-800x400.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    opacity: 0.4;
-}
+.box {}
 
 .topo {
     margin: 5%;
@@ -70,17 +59,39 @@ body {
 
 }
 
+
+
+
 .links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10%;
-    border-radius: 10%;
-    padding: 100px;
-
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: azure;
 }
 
 .Niet {
-    padding 10px;
-    background-color: rgba(0, 0, 0, 0.581);
+    padding: 10px;
+    background-color: rgba(113, 125, 195, 0.241);
+    border: solid rgb(25, 25, 25) 2.5px;
+    text-decoration: none;
+    colo
+}
+
+.camus {
+    padding: 10px;
+    background-color: rgba(113, 125, 195, 0.241);
+    border: solid rgb(25, 25, 25) 2.5px;
+    text-decoration: none;
+    col
+}
+
+.espino {
+    padding: 10px;
+    background-color: rgba(113, 125, 195, 0.241);
+    border: solid rgb(25, 25, 25) 2.5px;
+    text-decoration: none;
+    col
 }
